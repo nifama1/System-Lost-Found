@@ -1,0 +1,345 @@
+Ujian Fungsian (Functional Testing)
+- Menguji setiap tingkah laku dan fungsi modul secara menyeluruh
+- Memastikan sistem berfungsi mengikut spesifikasi yang ditetapkan
+
+Langkah-langkah Ujian:
+1. Ujian Unit (Unit Testing)
+   - Menguji komponen terkecil dalam sistem
+   - Memastikan setiap fungsi berfungsi dengan betul secara individu
+   - Biasanya dilakukan oleh pembangun
+
+2. Ujian Integrasi (Integration Testing)
+   - Menguji interaksi antara komponen-komponen sistem
+   - Memastikan komponen berfungsi bersama dengan baik
+   - Menguji aliran data antara modul
+
+3. Ujian Sistem (System Testing)
+   - Menguji keseluruhan sistem secara menyeluruh
+   - Memastikan semua keperluan sistem dipenuhi
+   - Menguji prestasi dan keselamatan sistem
+
+4. Ujian Regresi (Regression Testing)
+   - Menguji semula fungsi yang telah diuji sebelum ini
+   - Memastikan perubahan baru tidak menjejaskan fungsi sedia ada
+   - Menjalankan ujian automatik untuk fungsi kritikal
+
+5. Ujian Penerimaan Pengguna (User Acceptance Testing)
+   - Pengguna akhir menguji sistem
+   - Memastikan sistem memenuhi keperluan pengguna
+   - Mengesahkan sistem boleh digunakan dalam persekitaran sebenar
+
+Jenis-jenis Ujian:
+1. Ujian Pemacu Data (Data Driven Testing)
+   - Menggunakan set data yang berbeza untuk menguji fungsi yang sama
+   - Membolehkan pengujian pelbagai senario
+   - Memastikan sistem berfungsi dengan pelbagai input
+
+2. Ujian Kotak Hitam (Black Box Testing)
+   - Menguji sistem tanpa mengetahui kod dalaman
+   - Fokus pada input dan output
+   - Menguji dari perspektif pengguna
+
+3. Ujian Kotak Putih (White Box Testing)
+   - Menguji kod dalaman sistem
+   - Memeriksa aliran logik dan struktur kod
+   - Menguji kesemua laluan dalam kod
+
+4. Ujian Hairekei
+   - Menguji kesemua kombinasi input yang mungkin
+   - Memastikan tiada kesilapan dalam kombinasi data
+   - Menguji kesemua senario yang mungkin
+
+FDS (Functional Design Specification)
+- Dokumen yang menterjemahkan semua nota, konsep dan skop ke dalam dokumen keperluan yang lengkap
+- Mengandungi:
+  * Carta alir (Flowcharts)
+  * Tangkapan skrin (Screenshots)
+  * Wireframe
+  * Spesifikasi fungsi
+  * Keperluan sistem
+  * Interaksi pengguna
+
+Tujuan FDS:
+1. Mencapai persetujuan antara semua pihak berkepentingan
+2. Memaklumkan pembangun tentang sistem yang akan dibina
+3. Membolehkan QA merancang ujian yang sesuai
+4. Memastikan semua pihak faham apa yang akan dihasilkan
+
+SDD (Software Design Document)
+- Dokumen yang menerangkan bagaimana sistem perisian dibina
+- Mencakupi:
+  * Struktur keseluruhan sistem
+  * Fungsi-fungsi utama
+  * Reka bentuk modul
+  * Hubungan antara komponen
+  * Algoritma yang digunakan
+  * Struktur pangkalan data
+
+Kepentingan SDD:
+1. Sebagai panduan untuk pembangunan
+2. Memudahkan penyelenggaraan sistem
+3. Membantu dalam dokumentasi
+4. Memudahkan pemindahan pengetahuan
+
+SQL (Structured Query Language)
+- Bahasa pangkalan data standard
+- Digunakan untuk:
+  * Menguruskan data
+  * Membuat pertanyaan
+  * Mengubah struktur pangkalan data
+  * Mengawal akses data
+
+Bahasa SQL:
+1. DDL (Data Definition Language)
+   - CREATE: Mencipta objek baru (jadual, pangkalan data)
+   - ALTER: Mengubah struktur objek sedia ada
+   - DROP: Memadam objek
+   - RENAME: Menukar nama objek
+   - TRUNCATE: Mengosongkan jadual
+
+2. DML (Data Manipulation Language)
+   - INSERT: Menambah data baru
+   - UPDATE: Mengemaskini data sedia ada
+   - SELECT: Mengambil data
+   - DELETE: Memadam data
+
+3. DCL (Data Control Language)
+   - GRANT: Memberi kebenaran
+   - REVOKE: Menarik balik kebenaran
+   - DENY: Menolak kebenaran
+
+Komponen Pihak Ketiga (Third Party)
+- Komponen atau fungsi yang dibangunkan oleh pihak luar
+- Contoh: Canva, Bootstrap, jQuery
+
+Jenis Komponen Pihak Ketiga:
+1. Library
+   - Koleksi fungsi yang sedia digunakan
+   - Memudahkan pembangunan
+   - Mengurangkan masa pembangunan
+
+2. Framework
+   - Struktur asas untuk pembangunan
+   - Menyediakan komponen sedia ada
+   - Memudahkan pembangunan aplikasi
+
+3. API (Application Programming Interface)
+   - Antara muka untuk berinteraksi dengan perkhidmatan luar
+   - Membolehkan integrasi dengan sistem lain
+   - Menyediakan fungsi tambahan
+
+Prosedur Penggunaan Komponen Pihak Ketiga:
+1. Pemasangan
+   - Memasang komponen dalam projek
+   - Mengkonfigurasi komponen
+   - Memastikan keserasian
+
+2. Penggunaan
+   - Memanggil fungsi yang diperlukan
+   - Mengintegrasikan dengan kod sedia ada
+   - Menguji fungsi yang digunakan
+
+3. Penyelenggaraan
+   - Mengemaskini komponen
+   - Memastikan keselamatan
+   - Menangani isu yang timbul
+
+Third Party Security & Privacy Providers
+   - Menjaga maklumat pelanggan daripada dicerobohi
+   - Meningkatkan keyakinan dan kepercayaan pelanggan untuk menggunakan pembelian atas talian
+
+Fungsi Perisian Enterprise Application Integrator (EAI)
+1. Definisi EAI
+   - Sistem yang menghubungkan pelbagai aplikasi dan sistem dalam organisasi
+   - Membolehkan pertukaran data dan proses perniagaan secara automatik
+   - Mengintegrasikan sistem warisan dengan sistem moden
+
+2. Komponen Utama EAI
+   - Middleware: Perisian penghubung antara aplikasi
+   - Adapter: Penterjemah protokol dan format data
+   - Message Broker: Pengurus mesej dan aliran data
+   - Workflow Engine: Pengurus proses perniagaan
+   - Data Transformation: Penukaran format data
+
+3. Fungsi-fungsi EAI
+   a) Integrasi Data
+      - Menyelaraskan data antara sistem
+      - Mengelakkan pengulangan data
+      - Memastikan konsistensi data
+   
+   b) Integrasi Proses
+      - Mengautomasikan aliran kerja
+      - Menyelaraskan proses perniagaan
+      - Mengurangkan kerja manual
+   
+   c) Integrasi Aplikasi
+      - Menghubungkan sistem berbeza
+      - Membolehkan komunikasi antara aplikasi
+      - Mengurangkan kebergantungan sistem
+
+4. Kelebihan EAI
+   - Meningkatkan kecekapan operasi
+   - Mengurangkan kos penyelenggaraan
+   - Mempercepatkan proses perniagaan
+   - Mengurangkan kesilapan manusia
+   - Meningkatkan kualiti data
+
+5. Cabaran dalam Implementasi EAI
+   - Kos pelaksanaan yang tinggi
+   - Kerumitan dalam integrasi
+   - Isu keselamatan data
+   - Keperluan latihan kakitangan
+   - Perubahan proses perniagaan
+
+6. Jenis-jenis EAI
+   a) Point-to-Point Integration
+      - Hubungan terus antara dua sistem
+      - Mudah diimplementasi
+      - Sesuai untuk sistem kecil
+   
+   b) Hub and Spoke Integration
+      - Sistem pusat menghubungkan semua sistem
+      - Pengurusan lebih mudah
+      - Skalabiliti yang baik
+   
+   c) Bus Integration
+      - Menggunakan bus mesej sebagai penghubung
+      - Fleksibel dan boleh dikembangkan
+      - Sesuai untuk sistem besar
+
+7. Langkah-langkah Implementasi EAI
+   1. Analisis Keperluan
+      - Mengenal pasti sistem yang perlu diintegrasi
+      - Menentukan proses perniagaan
+      - Menilai keperluan teknikal
+   
+   2. Perancangan
+      - Merancang arkitektur
+      - Menentukan teknologi
+      - Menyediakan jadual pelaksanaan
+   
+   3. Pembangunan
+      - Membangunkan komponen EAI
+      - Mengintegrasikan sistem
+      - Menguji integrasi
+   
+   4. Pelaksanaan
+      - Memasang sistem
+      - Melatih pengguna
+      - Memantau prestasi
+
+8. Keselamatan dalam EAI
+   - Pengesahan pengguna
+   - Penyulitan data
+   - Audit trail
+   - Pengurusan akses
+   - Pemantauan keselamatan
+
+9. Masa Depan EAI
+   - Integrasi dengan Cloud
+   - Penggunaan API
+   - Internet of Things (IoT)
+   - Kecerdasan Buatan
+   - Analisis Data Masa Nyata
+
+Request For Comments (RFC)
+1. Definisi RFC
+   - Dokumen teknikal yang menerangkan standard, protokol, dan teknologi internet
+   - Diterbitkan oleh Internet Engineering Task Force (IETF)
+   - Digunakan sebagai rujukan utama dalam pembangunan teknologi internet
+
+2. Tujuan RFC
+   - Menerangkan standard teknikal
+   - Membincangkan isu-isu teknikal
+   - Mencadangkan penyelesaian
+   - Mendokumentasikan protokol
+   - Menyediakan panduan implementasi
+
+3. Jenis-jenis RFC
+   a) Standard Track
+      - RFC yang menjadi standard rasmi
+      - Menerangkan protokol dan teknologi yang digunakan secara meluas
+      - Contoh: HTTP, TCP/IP, SMTP
+   
+   b) Informational
+      - Maklumat umum tentang teknologi
+      - Tidak menjadi standard rasmi
+      - Contoh: Panduan penggunaan, Kajian kes
+   
+   c) Experimental
+      - Protokol atau teknologi yang sedang diuji
+      - Belum menjadi standard
+      - Contoh: Protokol baru yang sedang dibangunkan
+   
+   d) Best Current Practice (BCP)
+      - Panduan amalan terbaik
+      - Tidak menjadi standard rasmi
+      - Contoh: Panduan keselamatan, Pengurusan rangkaian
+
+4. Proses Pembangunan RFC
+   1. Penulisan Draft
+      - Menulis cadangan awal
+      - Membincangkan dengan komuniti
+      - Mendapatkan maklum balas
+   
+   2. Semakan
+      - Semakan oleh pakar
+      - Pembetulan dan penambahbaikan
+      - Kelulusan oleh IETF
+   
+   3. Penerbitan
+      - Diberikan nombor RFC
+      - Diterbitkan secara rasmi
+      - Tersedia untuk umum
+
+5. Format RFC
+   - Nombor RFC yang unik
+   - Tajuk yang jelas
+   - Pengarang dan tarikh
+   - Status (Standard, Informational, dll)
+   - Kandungan teknikal
+   - Rujukan
+
+6. Kepentingan RFC
+   - Memastikan keserasian teknologi
+   - Memudahkan pembangunan
+   - Menyediakan dokumentasi rasmi
+   - Memastikan kualiti standard
+   - Memudahkan pembelajaran
+
+7. Contoh RFC Penting
+   - RFC 791: Internet Protocol (IP)
+   - RFC 793: Transmission Control Protocol (TCP)
+   - RFC 2616: Hypertext Transfer Protocol (HTTP/1.1)
+   - RFC 5321: Simple Mail Transfer Protocol (SMTP)
+   - RFC 5322: Internet Message Format
+
+8. Penggunaan RFC
+   a) Pembangunan
+      - Rujukan untuk pembangun
+      - Panduan implementasi
+      - Memahami protokol
+   
+   b) Pendidikan
+      - Bahan pembelajaran
+      - Rujukan teknikal
+      - Memahami teknologi internet
+   
+   c) Standardisasi
+      - Menentukan standard
+      - Memastikan keserasian
+      - Mengawal kualiti
+
+9. Cabaran dalam RFC
+   - Kerumitan teknikal
+   - Perubahan teknologi pantas
+   - Keperluan semakan berterusan
+   - Keserasian dengan standard sedia ada
+   - Pengurusan versi
+
+10. Masa Depan RFC
+    - Pembangunan protokol baru
+    - Peningkatan keselamatan
+    - Integrasi dengan teknologi baru
+    - Penambahbaikan dokumentasi
+    - Penggunaan format digital
