@@ -1,2 +1,2 @@
 # System-Lost-Found
-System that used for helping people to find their stuff in the kolej area
+A system used to help people find their lost belongings on college grounds
